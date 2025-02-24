@@ -60,7 +60,9 @@
     .product-item-container-detail {
         flex-direction: column;
         height: auto;
-        padding: 0 15px;
+        padding: 0 0px;
+        width: 100%;
+        
     }
 
     .product-item-container-detail .img {
