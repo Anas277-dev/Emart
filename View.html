@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etonal Navbar</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Left side logo -->
+        <a href="#" class="logo">emart</a>
+
+        <!-- Hamburger menu for small screens -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!-- Center navigation -->
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Pages ▼</a>
+                    <div class="dropdown-content">
+                        <a href="#">Page 1</a>
+                        <a href="#">Page 2</a>
+                        <a href="#">Page 3</a>
+                    </div>
+                </li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Right side icons -->
+        <div class="nav-icons">
+            <a href="#"><i class="far fa-user"></i></a>
+            <div class="search-container">
+                <input type="search" placeholder="Search..." class="search-input" id="navbar-search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        </div>
+    </nav>
+
+    <!-- Sidebar for small screens -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <a href="#" class="logo">etonal.</a>
+            <div class="close-btn" id="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a href="#">Pages ▼</a>
+                <div class="dropdown-content">
+                    <a href="#">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                </div>
+            </li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="sidebar-icons">
+            <a href="#"><i class="far fa-user"></i></a>
+            <div class="search-container">
+                <input type="search" placeholder="Search..." class="search-input" id="sidebar-search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        </div>
+    </div>
+
+    <!-- Product Detail Section -->
+    <div class="product-container-detail">
+        
+        <div class="product-item-container-detail">
+            <div class="img">
+                <div class="big-img">
+                    <img src="images/food1.jpg" alt="Product 1">
+                </div>
+                <div class="small-img">
+                    <div class="sml-img active">
+                        <img src="images/food1.jpg" alt="Thumb 1">
+                    </div>
+                    <div class="sml-img">
+                        <img src="images/food2.jpeg" alt="Thumb 2">
+                    </div>
+                    <div class="sml-img">
+                        <img src="images/food3.jpg" alt="Thumb 3">
+                    </div>
+                    <div class="sml-img">
+                        <img src="images/food4.jpg" alt="Thumb 3">
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <form action="#" method="post">
+                    <div class="box">
+                        <div class="name">
+                            <p>Product 1</p>
+                        </div>
+                        <div class="price">
+                            <p>Rs. 250</p>
+                        </div>
+                        <div class="quantity">
+                            <input type="number" value="1" min="1" name="" id="">
+                        </div>
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur est accusamus alias totam, modi nesciunt placeat maxime nemo facilis facere eius officiis officia omnis voluptates minima ea nihil architecto quis vitae. Aliquid itaque architecto sapiente cumque adipisci voluptatum perferendis doloribus corrupti similique eligendi excepturi porro tempore numquam, ab recusandae quis!</p>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Add to cart">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyRight">
+            <p>Copyright © Emart &nbsp; | &nbsp; Designed by Emart</p>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-regular fa-building"></i></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

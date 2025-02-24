@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etonal Navbar</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Left side logo -->
+        <a href="#" class="logo">emart</a>
+
+        <!-- Hamburger menu for small screens -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <!-- Center navigation -->
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Pages ▼</a>
+                    <div class="dropdown-content">
+                        <a href="#">Page 1</a>
+                        <a href="#">Page 2</a>
+                        <a href="#">Page 3</a>
+                    </div>
+                </li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Right side icons -->
+        <div class="nav-icons">
+            <a href="#"><i class="far fa-user"></i></a>
+            <div class="search-container">
+                <input type="search" placeholder="Search..." class="search-input" id="navbar-search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        </div>
+    </nav>
+
+    <!-- Sidebar for small screens -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <a href="#" class="logo">etonal.</a>
+            <div class="close-btn" id="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <ul class="sidebar-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a href="#">Pages ▼</a>
+                <div class="dropdown-content">
+                    <a href="#">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                </div>
+            </li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="sidebar-icons">
+            <a href="#"><i class="far fa-user"></i></a>
+            <div class="search-container">
+                <input type="search" placeholder="Search..." class="search-input" id="sidebar-search">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <h1>Register</h1>
+        <div class="form">
+            <form action="#" method="post">
+                <input type="text" placeholder="Name" name="" id="">
+                <input type="text" placeholder="Email" name="" id="">
+                <input type="password" placeholder="Password" name="" id="">
+                <input type="password" placeholder="Confirm Password" name="" id="">
+                <select name="gender" class="gender-select">
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <input type="button" value="Login" name="" id="">
+            </form>
+            <p>i have an account? <a href="login.html">Login</a></p>
+
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyRight">
+            <p>Copyright © Emart &nbsp; | &nbsp; Designed by Emart</p>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-regular fa-building"></i></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
